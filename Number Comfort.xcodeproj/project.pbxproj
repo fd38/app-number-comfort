@@ -12,6 +12,8 @@
 		ED2DED911EEA86F300E544AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED2DED8F1EEA86F300E544AF /* Main.storyboard */; };
 		ED2DED931EEA86F300E544AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED2DED921EEA86F300E544AF /* Assets.xcassets */; };
 		ED2DED961EEA86F300E544AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED2DED941EEA86F300E544AF /* LaunchScreen.storyboard */; };
+		ED2DEDA01EEAC64E00E544AF /* mulorexpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2DED9F1EEAC64E00E544AF /* mulorexpViewController.swift */; };
+		ED2DEDA21EEAC8C600E544AF /* playViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2DEDA11EEAC8C600E544AF /* playViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		ED2DED921EEA86F300E544AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED2DED951EEA86F300E544AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED2DED971EEA86F300E544AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED2DED9F1EEAC64E00E544AF /* mulorexpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = mulorexpViewController.swift; path = ../mulorexpViewController.swift; sourceTree = "<group>"; };
+		ED2DEDA11EEAC8C600E544AF /* playViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = playViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				ED2DED8B1EEA86F300E544AF /* AppDelegate.swift */,
 				ED2DED8D1EEA86F300E544AF /* ViewController.swift */,
+				ED2DED9F1EEAC64E00E544AF /* mulorexpViewController.swift */,
+				ED2DEDA11EEAC8C600E544AF /* playViewController.swift */,
 				ED2DED8F1EEA86F300E544AF /* Main.storyboard */,
 				ED2DED921EEA86F300E544AF /* Assets.xcassets */,
 				ED2DED941EEA86F300E544AF /* LaunchScreen.storyboard */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED2DEDA21EEAC8C600E544AF /* playViewController.swift in Sources */,
 				ED2DED8E1EEA86F300E544AF /* ViewController.swift in Sources */,
 				ED2DED8C1EEA86F300E544AF /* AppDelegate.swift in Sources */,
+				ED2DEDA01EEAC64E00E544AF /* mulorexpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
