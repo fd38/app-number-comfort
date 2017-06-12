@@ -44,6 +44,7 @@
 			children = (
 				ED2DED8A1EEA86F300E544AF /* Number Comfort */,
 				ED2DED891EEA86F300E544AF /* Products */,
+				ED2DEDA31EEB234900E544AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,6 +69,13 @@
 				ED2DED971EEA86F300E544AF /* Info.plist */,
 			);
 			path = "Number Comfort";
+			sourceTree = "<group>";
+		};
+		ED2DEDA31EEB234900E544AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

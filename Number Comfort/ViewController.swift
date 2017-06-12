@@ -11,7 +11,7 @@ import UIKit
     var chosenNum = 1
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var num1: UIButton!
     @IBOutlet weak var num2: UIButton!
     @IBOutlet weak var num3: UIButton!
@@ -21,10 +21,15 @@ class ViewController: UIViewController {
     @IBOutlet weak var num7: UIButton!
     @IBOutlet weak var num8: UIButton!
     @IBOutlet weak var num9: UIButton!
+    @IBOutlet weak var colorbg: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        
     }
 
     override func didReceiveMemoryWarning() {
